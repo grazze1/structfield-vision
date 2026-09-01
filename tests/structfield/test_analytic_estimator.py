@@ -187,9 +187,26 @@ def test_rgb_conversion_and_batch_independence() -> None:
     separate = [module(sample) for sample in samples]
     for batch_index, single in enumerate(separate):
         assert isinstance(single, StructuralField)
-        assert torch.allclose(batch_field.orientation_prob[batch_index : batch_index + 1], single.orientation_prob)
-        assert torch.allclose(batch_field.frequency_mean[batch_index : batch_index + 1], single.frequency_mean)
-        assert torch.allclose(batch_field.coherence[batch_index : batch_index + 1], single.coherence)
+        # CPU convolution backends may accumulate batched and single-sample inputs
+        # in a different order, so compare within the estimator's float32 tolerance.
+        torch.testing.assert_close(
+            batch_field.orientation_prob[batch_index : batch_index + 1],
+            single.orientation_prob,
+            atol=2e-5,
+            rtol=2e-5,
+        )
+        torch.testing.assert_close(
+            batch_field.frequency_mean[batch_index : batch_index + 1],
+            single.frequency_mean,
+            atol=2e-5,
+            rtol=2e-5,
+        )
+        torch.testing.assert_close(
+            batch_field.coherence[batch_index : batch_index + 1],
+            single.coherence,
+            atol=2e-5,
+            rtol=2e-5,
+        )
 
     grayscale = samples[1]
     rgb = grayscale.repeat(1, 3, 1, 1)
