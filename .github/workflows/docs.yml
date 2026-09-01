@@ -3,11 +3,10 @@ name: docs
 on:
   pull_request:
   push:
+    branches: [main]
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 jobs:
   strict-docs:
@@ -26,9 +25,16 @@ jobs:
           path: site
 
   deploy-pages:
-    if: github.event_name == 'push' && github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    # Opt in after GitHub Pages is enabled with Actions as its source.
+    if: >-
+      github.event_name == 'push' &&
+      github.ref == format('refs/heads/{0}', github.event.repository.default_branch) &&
+      vars.DEPLOY_PAGES == 'true'
     needs: strict-docs
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
     steps:

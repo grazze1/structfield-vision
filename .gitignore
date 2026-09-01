@@ -42,5 +42,5 @@ venv/
 
 # Local handoff and post-tag release manifests are intentionally untracked.
 handoff/
-release/
+/release/
 site/

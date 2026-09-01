@@ -63,3 +63,13 @@ def test_build_and_distribution_artifacts_are_ignored() -> None:
     }
 
     assert build_artifacts <= _ignored_paths(*sorted(build_artifacts))
+
+
+def test_release_documentation_is_trackable_but_root_release_artifacts_are_ignored() -> None:
+    release_documentation = {"docs/release/index.md"}
+    root_release_artifacts = {"release/v1.0.0/SHA256SUMS"}
+
+    ignored = _ignored_paths(*sorted(release_documentation | root_release_artifacts))
+
+    assert release_documentation.isdisjoint(ignored)
+    assert root_release_artifacts <= ignored
