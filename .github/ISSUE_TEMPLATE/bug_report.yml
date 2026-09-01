@@ -1,0 +1,15 @@
+name: Bug report
+description: Report a reproducible StructField-Vision defect
+body:
+  - type: textarea
+    attributes:
+      label: Reproduction
+      description: Include minimal synthetic input and exact commands.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Environment
+      description: Version, Python, OS, CPU/GPU, and lock profile.
+    validations:
+      required: true

@@ -1,0 +1,48 @@
+name: release-verification
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      cuda_smoke:
+        description: Run the locked CUDA 12.6 suite on a compatible self-hosted runner
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  distributions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m pip install uv==0.12.3
+      - run: uv pip sync pylock.cpu.toml --system --strict
+      - run: uv pip install --system --no-deps .
+      - run: uv pip install --system cyclonedx-bom==7.3.1 pip-audit==2.10.1
+      - run: python scripts/release_artifacts.py --check
+      - run: python scripts/audit_lock.py cpu
+      - run: python scripts/audit_lock.py cu126
+      - run: python -m build
+      - run: twine check dist/*
+      - run: python scripts/verify_wheel.py dist/*.whl
+
+  cuda:
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.cuda_smoke }}
+    runs-on: [self-hosted, linux, x64, nvidia, cuda-12-6]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m pip install uv==0.12.3
+      - run: uv pip sync pylock.cu126.toml --system --strict
+      - run: uv pip install --system --no-deps .
+      - run: nvidia-smi
+      - run: pytest -q
+      - run: python scripts/performance_reference.py --device cuda --output /tmp/performance-cuda.json

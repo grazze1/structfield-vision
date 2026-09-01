@@ -1,0 +1,2 @@
+# Distribution extras only. Research-only dependencies live in the dedicated
+# requirements-research-*.txt files and are intentionally absent from wheels.

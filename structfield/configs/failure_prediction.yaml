@@ -1,0 +1,43 @@
+schema_version: "1.0"
+experiment_id: "failure-prediction-v0.3"
+definition_status: "frozen-a-priori"
+contains_results: false
+estimator_config: "analytic_default.yaml"
+baseline_matrix: "baseline_matrix.yaml"
+prediction_semantics:
+  prediction_name: "reliability"
+  prediction_range: "[0,1]"
+  higher_means: "more-reliable"
+  failure_score: "one-minus-predicted-reliability"
+reference_loss:
+  python_class: "structfield.losses.ReliabilityLoss"
+  config_dataclass: "structfield.losses.ReliabilityLossConfig"
+  parameters:
+    orientation_error_weight: 1.0
+    frequency_error_weight: 1.0
+    reliable_sample_weight: 1.0
+    unreliable_sample_weight: 2.0
+    tau: 0.25
+    threshold: 0.5
+    eps: 0.00000001
+failure_label:
+  source: "explicit-caller-supplied-binary-label"
+  positive_value: 1
+  negative_value: 0
+  implicit_label_generation: false
+score_definitions:
+  - name: "structural_uncertainty"
+    source: "StructuralField.structural_uncertainty"
+    higher_means: "more-likely-failure"
+  - name: "predicted_failure"
+    source: "one-minus-predicted-reliability"
+    higher_means: "more-likely-failure"
+metrics:
+  - name: "failure_auroc"
+    python_class: "structfield.metrics.FailureDetectionAUROC"
+  - name: "failure_auprc"
+    python_class: "structfield.metrics.FailureDetectionAUPRC"
+reporting_contract:
+  report_each_score_separately: true
+  require_both_failure_classes_for_auroc: true
+  calibration_claim_allowed: false

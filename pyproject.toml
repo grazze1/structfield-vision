@@ -1,0 +1,75 @@
+[build-system]
+requires = ["setuptools>=77", "wheel", "packaging>=24.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "structfield-vision"
+dynamic = ["version"]
+description = "Validated probabilistic structural fields for image analysis"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE.md"]
+dependencies = [
+  "numpy>=1.26,<3",
+  "torch>=2.13,<3",
+  "Pillow>=10,<13",
+]
+
+[project.optional-dependencies]
+visualization = ["matplotlib>=3.10.5,<4"]
+dev = [
+  "build>=1.2,<2",
+  "coverage[toml]>=7.6,<8",
+  "hypothesis>=6.120,<7",
+  "mkdocs>=1.6,<2",
+  "mkdocs-material>=9.6,<10",
+  "mkdocstrings[python]>=0.27,<1",
+  "mypy>=1.14,<2",
+  "pytest>=8,<10",
+  "ruff>=0.8,<1",
+  "twine>=6,<7",
+  "wheel>=0.45,<1",
+]
+
+[project.scripts]
+structfield-estimate = "structfield.cli.estimate:main"
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.dynamic]
+version = {attr = "structfield._version.VERSION"}
+
+[tool.setuptools.packages.find]
+include = ["structfield*"]
+
+[tool.setuptools.package-data]
+structfield = ["py.typed"]
+"structfield.configs" = ["*.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --import-mode=importlib"
+markers = [
+  "external_data: requires a user-provided external dataset",
+  "optional: requires an optional dependency",
+  "cuda_smoke: focused tests requiring a compatible NVIDIA CUDA runtime",
+]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+exclude = ["results", "outputs", "data"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+packages = ["structfield"]
+# Runtime validation deliberately accepts ``object`` and uses numeric ABCs;
+# PyTorch also exposes untyped decorators and selected Any-returning methods.
+warn_unreachable = false
+disable_error_code = ["untyped-decorator", "no-any-return"]

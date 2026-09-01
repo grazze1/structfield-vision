@@ -1,0 +1,91 @@
+{
+  "benchmark_version": "StructField-Bench-v0.1",
+  "families": {
+    "bifurcation": {
+      "frequency_mae_cpp": 0.021045006811618805,
+      "mean_coherence": 0.9083962440490723,
+      "orientation_js": 0.18934091925621033
+    },
+    "concentric": {
+      "frequency_mae_cpp": 0.00408285204321146,
+      "mean_coherence": 0.9062281847000122,
+      "orientation_js": 0.265346497297287
+    },
+    "crossing": {
+      "frequency_mae_cpp": 0.006896741688251495,
+      "mean_coherence": 0.884660542011261,
+      "orientation_js": 0.17459680140018463
+    },
+    "curved": {
+      "frequency_mae_cpp": 0.011212209239602089,
+      "mean_coherence": 0.9930715560913086,
+      "orientation_js": 0.1235232874751091
+    },
+    "domain_boundary": {
+      "frequency_mae_cpp": 0.008410023525357246,
+      "mean_coherence": 0.9275407791137695,
+      "orientation_js": 0.21062980592250824
+    },
+    "dual_crossing": {
+      "frequency_mae_cpp": 0.014865107834339142,
+      "mean_coherence": 0.5813234448432922,
+      "orientation_js": 0.44601762294769287
+    },
+    "junction": {
+      "frequency_mae_cpp": 0.014434008859097958,
+      "mean_coherence": 0.9098950624465942,
+      "orientation_js": 0.2100002020597458
+    },
+    "occlusion": {
+      "frequency_mae_cpp": 0.008769238367676735,
+      "mean_coherence": 0.9122318029403687,
+      "orientation_js": 0.26783373951911926
+    },
+    "parallel": {
+      "frequency_mae_cpp": 0.012370757758617401,
+      "mean_coherence": 0.9445255398750305,
+      "orientation_js": 0.2075810432434082
+    },
+    "radial": {
+      "frequency_mae_cpp": 0.04445505887269974,
+      "mean_coherence": 0.88941490650177,
+      "orientation_js": 0.20623445510864258
+    },
+    "sinusoidal": {
+      "frequency_mae_cpp": 0.011930570006370544,
+      "mean_coherence": 0.8985671401023865,
+      "orientation_js": 0.28088948130607605
+    },
+    "straight": {
+      "frequency_mae_cpp": 0.007401304319500923,
+      "mean_coherence": 0.9693678021430969,
+      "orientation_js": 0.18149837851524353
+    },
+    "varying_frequency": {
+      "frequency_mae_cpp": 0.01672518439590931,
+      "mean_coherence": 0.9999779462814331,
+      "orientation_js": 0.19037486612796783
+    },
+    "varying_thickness": {
+      "frequency_mae_cpp": 0.009175639599561691,
+      "mean_coherence": 0.9857972264289856,
+      "orientation_js": 0.1974664181470871
+    }
+  },
+  "profile": {
+    "base_seed": 100,
+    "device": "cpu",
+    "height": 32,
+    "index": 0,
+    "num_orientations": 16,
+    "split": "test",
+    "width": 32
+  },
+  "schema_version": "structfield-release-benchmark-v1",
+  "software_version": "1.0.0",
+  "tolerances": {
+    "frequency_mae_cpp": 2e-06,
+    "mean_coherence": 2e-06,
+    "orientation_js": 2e-06
+  }
+}

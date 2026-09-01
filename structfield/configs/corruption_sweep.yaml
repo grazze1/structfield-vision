@@ -1,0 +1,49 @@
+schema_version: "1.0"
+experiment_id: "structural-prior-corruption-sweep-v0.3"
+definition_status: "frozen-a-priori"
+contains_results: false
+estimator_config: "analytic_default.yaml"
+seed_base: 20260830
+seed_policy: "seed-base-plus-corruption-index-times-100-plus-level-index"
+recompute_structural_uncertainty: false
+corruptions:
+  - name: "orientation_shift"
+    python_function: "structfield.corruption.orientation_shift"
+    requires_seed: false
+    levels: [{"shift_radians": 0.0}, {"shift_radians": 0.19634954084936207}, {"shift_radians": 0.39269908169872414}]
+  - name: "orientation_noise"
+    python_function: "structfield.corruption.orientation_noise"
+    requires_seed: true
+    levels: [{"std_radians": 0.0}, {"std_radians": 0.08726646259971647}, {"std_radians": 0.17453292519943295}]
+  - name: "frequency_scale"
+    python_function: "structfield.corruption.frequency_scale"
+    requires_seed: false
+    levels: [{"factor": 0.75}, {"factor": 1.0}, {"factor": 1.25}]
+  - name: "frequency_noise"
+    python_function: "structfield.corruption.frequency_noise"
+    requires_seed: true
+    levels: [{"std": 0.0}, {"std": 0.01}, {"std": 0.03}]
+  - name: "spatial_shift"
+    python_function: "structfield.corruption.spatial_shift"
+    requires_seed: false
+    levels: [{"shift_y": 0, "shift_x": 0}, {"shift_y": 2, "shift_x": 0}, {"shift_y": 0, "shift_x": 2}, {"shift_y": 2, "shift_x": 2}]
+  - name: "scale_shift"
+    python_function: "structfield.corruption.scale_shift"
+    requires_seed: false
+    levels: [{"bins": -1}, {"bins": 0}, {"bins": 1}]
+  - name: "coherence_noise"
+    python_function: "structfield.corruption.coherence_noise"
+    requires_seed: true
+    levels: [{"std": 0.0}, {"std": 0.1}, {"std": 0.25}]
+  - name: "mode_swap"
+    python_function: "structfield.corruption.mode_swap"
+    requires_seed: false
+    levels: [{"first_mode": 0, "second_mode": 1}]
+  - name: "field_dropout"
+    python_function: "structfield.corruption.field_dropout"
+    requires_seed: true
+    levels: [{"probability": 0.0}, {"probability": 0.25}, {"probability": 0.5}, {"probability": 1.0}]
+evaluation:
+  compare_against_uncorrupted_field: true
+  preserve_corruption_metadata: true
+  aggregate_across_seeds_only_after_per-seed-reporting: true

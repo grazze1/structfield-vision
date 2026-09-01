@@ -1,0 +1,2 @@
+# Release lock constraint shared by CPU and CUDA 12.6 profiles.
+torch==2.13.0

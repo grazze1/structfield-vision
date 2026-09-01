@@ -1,0 +1,3 @@
+# Research-only traditional baseline. BM3D 4.0.3 is free for
+# non-commercial use only and is not covered by Apache-2.0.
+bm3d==4.0.3

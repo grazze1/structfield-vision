@@ -1,0 +1,108 @@
+{
+  "cuda_device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "device": "cuda",
+  "disclaimer": "Hardware-specific reference; not a performance commitment.",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "python": "3.11.15",
+  "records": [
+    {
+      "cuda_peak_bytes": 858112,
+      "image_shape": [
+        1,
+        1,
+        32,
+        32
+      ],
+      "latency_ms_median": 6.462103003286757,
+      "latency_ms_samples": [
+        6.529279999085702,
+        6.462103003286757,
+        6.390649999957532
+      ],
+      "num_orientations": 8
+    },
+    {
+      "cuda_peak_bytes": 3209728,
+      "image_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "latency_ms_median": 6.895138998515904,
+      "latency_ms_samples": [
+        6.895138998515904,
+        6.839887995738536,
+        9.049292988493107
+      ],
+      "num_orientations": 8
+    },
+    {
+      "cuda_peak_bytes": 1648640,
+      "image_shape": [
+        1,
+        1,
+        32,
+        32
+      ],
+      "latency_ms_median": 8.947538997745141,
+      "latency_ms_samples": [
+        9.029829001519829,
+        8.947538997745141,
+        8.924203997594304
+      ],
+      "num_orientations": 16
+    },
+    {
+      "cuda_peak_bytes": 6162944,
+      "image_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "latency_ms_median": 9.397746005561203,
+      "latency_ms_samples": [
+        9.397746005561203,
+        9.340032993350178,
+        9.42804099759087
+      ],
+      "num_orientations": 16
+    },
+    {
+      "cuda_peak_bytes": 3228672,
+      "image_shape": [
+        1,
+        1,
+        32,
+        32
+      ],
+      "latency_ms_median": 13.449638994643465,
+      "latency_ms_samples": [
+        13.449638994643465,
+        13.435340006253682,
+        13.470870006131008
+      ],
+      "num_orientations": 32
+    },
+    {
+      "cuda_peak_bytes": 12068352,
+      "image_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "latency_ms_median": 13.742504001129419,
+      "latency_ms_samples": [
+        13.73584900284186,
+        13.978276998386718,
+        13.742504001129419
+      ],
+      "num_orientations": 32
+    }
+  ],
+  "schema_version": "structfield-performance-reference-v1",
+  "software_version": "1.0.0",
+  "torch": "2.13.0+cu126"
+}

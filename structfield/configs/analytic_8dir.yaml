@@ -1,0 +1,23 @@
+schema_version: "1.0"
+kind: "analytic-structural-field-estimator"
+implementation: "structfield.estimators.AnalyticStructuralFieldEstimator"
+config_dataclass: "structfield.estimators.AnalyticEstimatorConfig"
+contains_results: false
+parameters:
+  num_orientations: 8
+  frequencies: [0.04, 0.08, 0.16]
+  tensor_scales: [1.2, 2.4, 4.8]
+  hessian_scales: [1.0, 2.0, 4.0]
+  weak_denoise_type: "gaussian"
+  weak_denoise_sigma: 0.8
+  local_radius: 9.0
+  normalization_eps: 0.001
+  normalization_clip: 6.0
+  gabor_sigma: 3.0
+  orientation_temperature: 0.15
+  scale_temperature: 0.1
+  analytic_eps: 0.000001
+  min_separation_rad: 0.39269908169872414
+  include_hessian: false
+  hessian_beta: 0.5
+  hessian_sensitivity: 0.25

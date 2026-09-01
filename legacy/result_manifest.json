@@ -1,0 +1,98 @@
+{
+  "schema_version": "structfield-legacy-evidence-v0.1",
+  "classification": "Legacy Evidence; not V0.2 performance",
+  "frozen_ref": {
+    "tag": "legacy-v0.1",
+    "commit": "e39f681c771e7cc0f7846293cb280c1121bd1357"
+  },
+  "asset_policy": {
+    "checkpoints_released": false,
+    "datasets_released": false,
+    "organizer_labels_released": false,
+    "predictions_released": false,
+    "official_hidden_scores_available": false
+  },
+  "fringe_restoration": {
+    "historical_name": "Q1 / ConditionedRestorer",
+    "architecture_summary": "dual-encoder residual U-Net with noise FiLM",
+    "selected_seed": 42,
+    "selected_validation_mae": 0.010074228805024177,
+    "selected_ood_mae": 0.07084129,
+    "five_seed_validation_mae": {
+      "mean": 0.01081785569,
+      "population_sd": 0.000714221008
+    },
+    "five_seed_ood_mae": {
+      "mean": 0.065663497266,
+      "population_sd": 0.0029160272
+    },
+    "historical_parameter_count": 1158625,
+    "checkpoint_sha256_evidence": "a97655d477d1e871ccd078b4aa0ebbbd5680e6800839113e683f41964339a329",
+    "official_hidden_mae": null,
+    "source_paths_at_tag": [
+      "docs/legacy/results/q1.md",
+      "docs/legacy/results/summary/q1_metrics.json",
+      "docs/legacy/results/summary/model_manifest.json"
+    ]
+  },
+  "texture_restoration": {
+    "historical_name": "Q2 / ConditionedGlobalRestorer",
+    "architecture_summary": "dual-encoder residual U-Net with Fourier-domain bottleneck",
+    "selected_seed": 3407,
+    "selected_validation_mae": 0.009245773559086956,
+    "five_seed_validation_mae": {
+      "mean": 0.012428012741,
+      "population_sd": 0.001624764178
+    },
+    "five_seed_ood_mae": {
+      "mean": 0.011016970201,
+      "population_sd": 0.000782172704
+    },
+    "historical_parameter_count": 1272769,
+    "checkpoint_sha256_evidence": "3b07819e03ae85ed4fc67ae0089ca628b5c3da1609e37b1a4a6a34170a29c971",
+    "competition_public_example_mae": 0.06971557738341402,
+    "competition_public_example_is_independent": false,
+    "official_hidden_mae": null,
+    "source_paths_at_tag": [
+      "docs/legacy/results/q2.md",
+      "docs/legacy/results/summary/q2_metrics.json",
+      "docs/legacy/results/summary/model_manifest.json"
+    ]
+  },
+  "curvilinear_segmentation": {
+    "historical_name": "Q3 / plain U-Net top-three probability ensemble",
+    "selected_seeds": [1337, 42, 3407],
+    "validation": {
+      "global_dice": 0.8400906324386597,
+      "mean_image_dice": 0.829319688645038,
+      "historical_cldice": 0.8841720760523618,
+      "samples": 91,
+      "threshold": 0.55
+    },
+    "held_out_test": {
+      "global_dice": 0.842410683631897,
+      "mean_image_dice": 0.8276347498317341,
+      "iou": 0.7277284264564514,
+      "precision": 0.8531181216239929,
+      "recall": 0.8319686651229858,
+      "historical_cldice": 0.88173197553708,
+      "samples": 91,
+      "threshold": 0.55
+    },
+    "historical_parameter_count_single_model": 1085305,
+    "checkpoint_sha256_evidence": [
+      "ed0e3070e65ec9b0dacd997e50c043829363c03bcf9fee18ba14aefd81d130a2",
+      "10d3e18503acaf018f67c78b8457fe1b6d0c87f1415535dbb90f4fbc65f8c785",
+      "484acec5c52f888fb0319b85f1e2e17c9226956386a7b311be38367e992e478b"
+    ],
+    "competition_public_example_dice": 0.8034508962583947,
+    "competition_public_example_is_independent": false,
+    "official_hidden_dice": null,
+    "source_paths_at_tag": [
+      "docs/legacy/results/q3.md",
+      "docs/legacy/results/summary/q3_metrics.json",
+      "docs/legacy/results/summary/model_manifest.json"
+    ],
+    "historical_cldice_note": "Numerical record only; the derived implementation is excluded from active V0.2."
+  }
+}

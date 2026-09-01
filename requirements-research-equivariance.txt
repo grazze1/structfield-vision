@@ -1,0 +1,2 @@
+# Research-only dependency; not included in distribution extras.
+escnn>=1.0,<2

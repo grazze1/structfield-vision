@@ -1,0 +1,62 @@
+site_name: StructField-Vision
+site_description: Stable v1 documentation for probabilistic structural fields
+strict: true
+exclude_docs: |
+  competition_submission.md
+  datasets.md
+  overview.md
+  source_snapshot.md
+  architecture/
+  refactor_v02/
+  release_audit/
+  research/equivariance.md
+  research/experimental_protocol.md
+  research/related_work.md
+  research/reliability_gating.md
+  research/research_question.md
+  research/structural_field.md
+theme:
+  name: material
+  language: en
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            show_source: false
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - Concepts: concepts.md
+  - Tutorials: tutorials.md
+  - Reference: reference.md
+  - API: api.md
+  - Versioning: semver.md
+  - Research:
+      - Method: research/method.md
+      - Benchmark: research/benchmark.md
+      - Uncertainty: research/uncertainty.md
+      - Reproducibility: reproducibility.md
+  - Legal:
+      - Code provenance: legal/CODE_PROVENANCE.md
+      - License scope: legal/LICENSE_SCOPE.md
+      - Third party: legal/THIRD_PARTY.md
+  - Release:
+      - Overview: release/index.md
+      - Summary: release_v1/00_release_summary.md
+      - API and schema: release_v1/01_api_schema.md
+      - Validation and math: release_v1/02_validation_math.md
+      - CLI atomicity: release_v1/03_cli_atomicity.md
+      - Checkpoint security: release_v1/04_checkpoint_security.md
+      - Benchmark regression: release_v1/05_benchmark_regression.md
+      - CPU qualification: release_v1/06_cpu_qualification.md
+      - CUDA qualification: release_v1/07_cuda_qualification.md
+      - Performance: release_v1/08_performance.md
+      - Documentation and examples: release_v1/09_documentation_examples.md
+      - Provenance and legal: release_v1/10_provenance_legal.md
+      - Supply chain: release_v1/11_supply_chain.md
+      - Final release: release_v1/12_final_release.md
+  - Migration: migration-0.3.md
+  - Limitations: limitations.md

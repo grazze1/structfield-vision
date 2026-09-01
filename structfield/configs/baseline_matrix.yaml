@@ -1,0 +1,110 @@
+schema_version: "1.0"
+experiment_id: "baseline-matrix-v0.3"
+definition_status: "frozen-a-priori"
+frozen: true
+contains_results: false
+estimator_config: "analytic_default.yaml"
+v03_protocol_variants:
+  - protocol_id: "no_prior"
+    label: "NoPrior"
+    prior: "none"
+    adaptive: false
+    uq: false
+    corruption: false
+    equivariance: false
+    adapter_python_class: "structfield.adapters.NoPriorAdapter"
+  - protocol_id: "fixed_prior"
+    label: "FixedPrior"
+    prior: "fixed"
+    adaptive: false
+    uq: false
+    corruption: false
+    equivariance: false
+    adapter_python_class: "structfield.adapters.ConcatStructuralAdapter"
+  - protocol_id: "probabilistic_prior"
+    label: "ProbabilisticPrior"
+    prior: "probabilistic"
+    adaptive: false
+    uq: true
+    corruption: false
+    equivariance: false
+    adapter_python_class: "structfield.adapters.FiLMStructuralAdapter"
+  - protocol_id: "reliability_gated_prior"
+    label: "ReliabilityGatedPrior"
+    prior: "reliability-gated"
+    adaptive: true
+    uq: true
+    corruption: false
+    equivariance: false
+    adapter_python_class: "structfield.adapters.ReliabilityGatedAdapter"
+  - protocol_id: "reliability_gated_prior_corruption"
+    label: "ReliabilityGatedPrior + Corruption"
+    prior: "reliability-gated"
+    adaptive: true
+    uq: true
+    corruption: true
+    equivariance: false
+    adapter_python_class: "structfield.adapters.ReliabilityGatedAdapter"
+    corruption_config: "corruption_sweep.yaml"
+  - protocol_id: "reliability_gated_prior_corruption_equivariance"
+    label: "ReliabilityGatedPrior + Corruption + Equivariance"
+    prior: "reliability-gated"
+    adaptive: true
+    uq: true
+    corruption: true
+    equivariance: true
+    adapter_python_class: "structfield.adapters.ReliabilityGatedAdapter"
+    corruption_config: "corruption_sweep.yaml"
+    equivariance_config: "equivariance_smoke.yaml"
+future_baseline_matrix:
+  - matrix_id: "cnn"
+    model: "CNN"
+    prior: "no"
+    adaptive: "no"
+    uq: "no"
+    equivariance: "no"
+    implementation_status: "component-available"
+  - matrix_id: "cnn_fixed"
+    model: "CNN + Fixed"
+    prior: "yes"
+    adaptive: "no"
+    uq: "no"
+    equivariance: "no"
+    implementation_status: "component-available"
+  - matrix_id: "cnn_prob"
+    model: "CNN + Prob"
+    prior: "yes"
+    adaptive: "no"
+    uq: "yes"
+    equivariance: "no"
+    implementation_status: "component-available"
+  - matrix_id: "cnn_gate"
+    model: "CNN + Gate"
+    prior: "yes"
+    adaptive: "yes"
+    uq: "yes"
+    equivariance: "no"
+    implementation_status: "component-available"
+  - matrix_id: "cnn_gate_eq"
+    model: "CNN + Gate + EQ"
+    prior: "yes"
+    adaptive: "yes"
+    uq: "yes"
+    equivariance: "yes"
+    implementation_status: "component-available"
+  - matrix_id: "escnn"
+    model: "escnn"
+    prior: "implicit"
+    adaptive: "not-applicable"
+    uq: "no"
+    equivariance: "yes"
+    implementation_status: "planned-optional"
+    optional_package: "escnn"
+  - matrix_id: "escnn_apsf"
+    model: "escnn + APSF"
+    prior: "yes"
+    adaptive: "yes"
+    uq: "yes"
+    equivariance: "yes"
+    implementation_status: "planned-optional"
+    optional_package: "escnn"

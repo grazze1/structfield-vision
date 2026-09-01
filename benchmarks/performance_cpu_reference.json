@@ -1,0 +1,108 @@
+{
+  "cuda_device": null,
+  "device": "cpu",
+  "disclaimer": "Hardware-specific reference; not a performance commitment.",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "python": "3.11.15",
+  "records": [
+    {
+      "cuda_peak_bytes": null,
+      "image_shape": [
+        1,
+        1,
+        32,
+        32
+      ],
+      "latency_ms_median": 4.100995007320307,
+      "latency_ms_samples": [
+        4.100995007320307,
+        3.977927000960335,
+        4.403814993565902
+      ],
+      "num_orientations": 8
+    },
+    {
+      "cuda_peak_bytes": null,
+      "image_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "latency_ms_median": 5.886995000764728,
+      "latency_ms_samples": [
+        5.548750996240415,
+        5.886995000764728,
+        6.311877004918642
+      ],
+      "num_orientations": 8
+    },
+    {
+      "cuda_peak_bytes": null,
+      "image_shape": [
+        1,
+        1,
+        32,
+        32
+      ],
+      "latency_ms_median": 6.350629002554342,
+      "latency_ms_samples": [
+        6.350629002554342,
+        6.059626000933349,
+        6.471500993939117
+      ],
+      "num_orientations": 16
+    },
+    {
+      "cuda_peak_bytes": null,
+      "image_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "latency_ms_median": 15.328759996918961,
+      "latency_ms_samples": [
+        11.881794009241275,
+        15.430498999194242,
+        15.328759996918961
+      ],
+      "num_orientations": 16
+    },
+    {
+      "cuda_peak_bytes": null,
+      "image_shape": [
+        1,
+        1,
+        32,
+        32
+      ],
+      "latency_ms_median": 6.5358770079910755,
+      "latency_ms_samples": [
+        6.60058599896729,
+        6.5358770079910755,
+        6.527908990392461
+      ],
+      "num_orientations": 32
+    },
+    {
+      "cuda_peak_bytes": null,
+      "image_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "latency_ms_median": 9.521842002868652,
+      "latency_ms_samples": [
+        9.423558993148617,
+        9.521842002868652,
+        10.0696860026801
+      ],
+      "num_orientations": 32
+    }
+  ],
+  "schema_version": "structfield-performance-reference-v1",
+  "software_version": "1.0.0",
+  "torch": "2.13.0+cpu"
+}

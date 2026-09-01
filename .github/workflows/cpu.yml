@@ -1,0 +1,35 @@
+name: cpu-ci
+
+on:
+  pull_request:
+  push:
+
+permissions:
+  contents: read
+
+jobs:
+  cpu:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m pip install uv==0.12.3
+      - run: uv pip sync pylock.cpu.toml --system --strict
+      - run: uv pip install --system --no-deps -e .
+      - run: ruff check .
+      - run: ruff format --check .
+      - run: mypy structfield
+      - run: python -m compileall -q structfield examples scripts
+      - run: coverage run -m pytest -m "not cuda_smoke"
+      - run: coverage report --include='structfield/*' --fail-under=85
+      - run: coverage report --include='structfield/core/*' --fail-under=90
+      - run: coverage report --include='structfield/estimators/*' --fail-under=90
+      - run: coverage report --include='structfield/benchmarks/*' --fail-under=90
+      - run: coverage report --include='structfield/checkpoint.py' --fail-under=90
+      - run: coverage report --include='structfield/cli/*' --fail-under=90
+      - run: python scripts/benchmark_release.py --check
+      - run: python scripts/performance_reference.py --device cpu --output /tmp/performance.json
+      - run: for example in examples/0*.py; do python "$example"; done

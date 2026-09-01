@@ -1,0 +1,3287 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "requirements-L2",
+      "description": "requirements line 2: babel==2.18.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/babel/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "babel",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/babel@2.18.0",
+      "type": "library",
+      "version": "2.18.0"
+    },
+    {
+      "bom-ref": "requirements-L3",
+      "description": "requirements line 3: backports-tarfile==1.2.0 ; python_full_version < '3.12' and platform_machine != 'ppc64le' and platform_machine != 's390x'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/backports-tarfile/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "backports-tarfile",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/backports-tarfile@1.2.0",
+      "type": "library",
+      "version": "1.2.0"
+    },
+    {
+      "bom-ref": "requirements-L4",
+      "description": "requirements line 4: backrefs==8.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/backrefs/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "backrefs",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/backrefs@8.0",
+      "type": "library",
+      "version": "8.0"
+    },
+    {
+      "bom-ref": "requirements-L5",
+      "description": "requirements line 5: build==1.6.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/build/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "build",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/build@1.6.0",
+      "type": "library",
+      "version": "1.6.0"
+    },
+    {
+      "bom-ref": "requirements-L6",
+      "description": "requirements line 6: certifi==2026.7.22",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/certifi/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MPL-2.0"
+        }
+      ],
+      "name": "certifi",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/certifi@2026.7.22",
+      "type": "library",
+      "version": "2026.7.22"
+    },
+    {
+      "bom-ref": "requirements-L7",
+      "description": "requirements line 7: cffi==2.1.1 ; platform_machine != 'ppc64le' and platform_machine != 's390x' and platform_python_implementation != 'PyPy' and sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/cffi/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT-0"
+        }
+      ],
+      "name": "cffi",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/cffi@2.1.1",
+      "type": "library",
+      "version": "2.1.1"
+    },
+    {
+      "bom-ref": "requirements-L8",
+      "description": "requirements line 8: charset-normalizer==3.5.1",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/charset-normalizer/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "charset-normalizer",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/charset-normalizer@3.5.1",
+      "type": "library",
+      "version": "3.5.1"
+    },
+    {
+      "bom-ref": "requirements-L9",
+      "description": "requirements line 9: click==8.5.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/click/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "click",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/click@8.5.0",
+      "type": "library",
+      "version": "8.5.0"
+    },
+    {
+      "bom-ref": "requirements-L10",
+      "description": "requirements line 10: colorama==0.4.6",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/colorama/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "colorama",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/colorama@0.4.6",
+      "type": "library",
+      "version": "0.4.6"
+    },
+    {
+      "bom-ref": "requirements-L11",
+      "description": "requirements line 11: contourpy==1.3.3",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/contourpy/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "contourpy",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/contourpy@1.3.3",
+      "type": "library",
+      "version": "1.3.3"
+    },
+    {
+      "bom-ref": "requirements-L12",
+      "description": "requirements line 12: coverage==7.16.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/coverage/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "coverage",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/coverage@7.16.0",
+      "type": "library",
+      "version": "7.16.0"
+    },
+    {
+      "bom-ref": "requirements-L13",
+      "description": "requirements line 13: cryptography==50.0.1 ; platform_machine != 'ppc64le' and platform_machine != 's390x' and sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/cryptography/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR BSD-3-Clause"
+        }
+      ],
+      "name": "cryptography",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/cryptography@50.0.1",
+      "type": "library",
+      "version": "50.0.1"
+    },
+    {
+      "bom-ref": "requirements-L14",
+      "description": "requirements line 14: cuda-bindings==12.9.7 ; python_full_version < '3.15' and sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/cuda-bindings/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-NVIDIA-SOFTWARE-LICENSE"
+        }
+      ],
+      "name": "cuda-bindings",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/cuda-bindings@12.9.7",
+      "type": "library",
+      "version": "12.9.7"
+    },
+    {
+      "bom-ref": "requirements-L15",
+      "description": "requirements line 15: cuda-pathfinder==1.8.0 ; python_full_version < '3.15' and sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/cuda-pathfinder/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "cuda-pathfinder",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/cuda-pathfinder@1.8.0",
+      "type": "library",
+      "version": "1.8.0"
+    },
+    {
+      "bom-ref": "requirements-L16",
+      "description": "requirements line 16: cuda-toolkit==12.6.3 ; sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/cuda-toolkit/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-NVIDIA-Proprietary"
+        }
+      ],
+      "name": "cuda-toolkit",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/cuda-toolkit@12.6.3",
+      "type": "library",
+      "version": "12.6.3"
+    },
+    {
+      "bom-ref": "requirements-L17",
+      "description": "requirements line 17: cycler==0.12.1",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/cycler/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "cycler",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/cycler@0.12.1",
+      "type": "library",
+      "version": "0.12.1"
+    },
+    {
+      "bom-ref": "requirements-L18",
+      "description": "requirements line 18: docutils==0.23",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/docutils/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-Docutils-Public-Domain-BSD-GPL"
+        }
+      ],
+      "name": "docutils",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/docutils@0.23",
+      "type": "library",
+      "version": "0.23"
+    },
+    {
+      "bom-ref": "requirements-L19",
+      "description": "requirements line 19: filelock==3.32.5",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/filelock/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "filelock",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/filelock@3.32.5",
+      "type": "library",
+      "version": "3.32.5"
+    },
+    {
+      "bom-ref": "requirements-L20",
+      "description": "requirements line 20: fonttools==4.64.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/fonttools/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "fonttools",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/fonttools@4.64.0",
+      "type": "library",
+      "version": "4.64.0"
+    },
+    {
+      "bom-ref": "requirements-L21",
+      "description": "requirements line 21: fsspec==2026.7.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/fsspec/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "fsspec",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/fsspec@2026.7.0",
+      "type": "library",
+      "version": "2026.7.0"
+    },
+    {
+      "bom-ref": "requirements-L22",
+      "description": "requirements line 22: ghp-import==2.1.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/ghp-import/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "ghp-import",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/ghp-import@2.1.0",
+      "type": "library",
+      "version": "2.1.0"
+    },
+    {
+      "bom-ref": "requirements-L23",
+      "description": "requirements line 23: griffelib==2.2.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/griffelib/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "ISC"
+        }
+      ],
+      "name": "griffelib",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/griffelib@2.2.0",
+      "type": "library",
+      "version": "2.2.0"
+    },
+    {
+      "bom-ref": "requirements-L24",
+      "description": "requirements line 24: hypothesis==6.167.1",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/hypothesis/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MPL-2.0"
+        }
+      ],
+      "name": "hypothesis",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/hypothesis@6.167.1",
+      "type": "library",
+      "version": "6.167.1"
+    },
+    {
+      "bom-ref": "requirements-L25",
+      "description": "requirements line 25: id==1.6.1",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/id/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "id",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/id@1.6.1",
+      "type": "library",
+      "version": "1.6.1"
+    },
+    {
+      "bom-ref": "requirements-L26",
+      "description": "requirements line 26: idna==3.19",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/idna/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "idna",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/idna@3.19",
+      "type": "library",
+      "version": "3.19"
+    },
+    {
+      "bom-ref": "requirements-L27",
+      "description": "requirements line 27: importlib-metadata==9.0.1 ; python_full_version < '3.12' and platform_machine != 'ppc64le' and platform_machine != 's390x'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/importlib-metadata/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "importlib-metadata",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/importlib-metadata@9.0.1",
+      "type": "library",
+      "version": "9.0.1"
+    },
+    {
+      "bom-ref": "requirements-L28",
+      "description": "requirements line 28: iniconfig==2.3.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/iniconfig/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "iniconfig",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/iniconfig@2.3.0",
+      "type": "library",
+      "version": "2.3.0"
+    },
+    {
+      "bom-ref": "requirements-L29",
+      "description": "requirements line 29: jaraco-classes==3.4.0 ; platform_machine != 'ppc64le' and platform_machine != 's390x'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/jaraco-classes/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "jaraco-classes",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/jaraco-classes@3.4.0",
+      "type": "library",
+      "version": "3.4.0"
+    },
+    {
+      "bom-ref": "requirements-L30",
+      "description": "requirements line 30: jaraco-context==6.1.2 ; platform_machine != 'ppc64le' and platform_machine != 's390x'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/jaraco-context/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "jaraco-context",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/jaraco-context@6.1.2",
+      "type": "library",
+      "version": "6.1.2"
+    },
+    {
+      "bom-ref": "requirements-L31",
+      "description": "requirements line 31: jaraco-functools==4.6.0 ; platform_machine != 'ppc64le' and platform_machine != 's390x'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/jaraco-functools/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "jaraco-functools",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/jaraco-functools@4.6.0",
+      "type": "library",
+      "version": "4.6.0"
+    },
+    {
+      "bom-ref": "requirements-L32",
+      "description": "requirements line 32: jeepney==0.9.0 ; platform_machine != 'ppc64le' and platform_machine != 's390x' and sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/jeepney/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "jeepney",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/jeepney@0.9.0",
+      "type": "library",
+      "version": "0.9.0"
+    },
+    {
+      "bom-ref": "requirements-L33",
+      "description": "requirements line 33: jinja2==3.1.6",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/jinja2/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "jinja2",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/jinja2@3.1.6",
+      "type": "library",
+      "version": "3.1.6"
+    },
+    {
+      "bom-ref": "requirements-L34",
+      "description": "requirements line 34: keyring==25.7.0 ; platform_machine != 'ppc64le' and platform_machine != 's390x'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/keyring/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "keyring",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/keyring@25.7.0",
+      "type": "library",
+      "version": "25.7.0"
+    },
+    {
+      "bom-ref": "requirements-L35",
+      "description": "requirements line 35: kiwisolver==1.5.1",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/kiwisolver/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "kiwisolver",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/kiwisolver@1.5.1",
+      "type": "library",
+      "version": "1.5.1"
+    },
+    {
+      "bom-ref": "requirements-L36",
+      "description": "requirements line 36: librt==0.15.0 ; platform_python_implementation != 'PyPy'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/librt/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "librt",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/librt@0.15.0",
+      "type": "library",
+      "version": "0.15.0"
+    },
+    {
+      "bom-ref": "requirements-L37",
+      "description": "requirements line 37: markdown==3.10.3",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/markdown/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "markdown",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/markdown@3.10.3",
+      "type": "library",
+      "version": "3.10.3"
+    },
+    {
+      "bom-ref": "requirements-L38",
+      "description": "requirements line 38: markdown-it-py==4.2.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/markdown-it-py/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "markdown-it-py",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/markdown-it-py@4.2.0",
+      "type": "library",
+      "version": "4.2.0"
+    },
+    {
+      "bom-ref": "requirements-L39",
+      "description": "requirements line 39: markupsafe==3.0.3",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/markupsafe/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "markupsafe",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/markupsafe@3.0.3",
+      "type": "library",
+      "version": "3.0.3"
+    },
+    {
+      "bom-ref": "requirements-L40",
+      "description": "requirements line 40: matplotlib==3.11.1",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/matplotlib/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-Matplotlib-1.3"
+        }
+      ],
+      "name": "matplotlib",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/matplotlib@3.11.1",
+      "type": "library",
+      "version": "3.11.1"
+    },
+    {
+      "bom-ref": "requirements-L41",
+      "description": "requirements line 41: mdurl==0.1.2",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/mdurl/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "mdurl",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/mdurl@0.1.2",
+      "type": "library",
+      "version": "0.1.2"
+    },
+    {
+      "bom-ref": "requirements-L42",
+      "description": "requirements line 42: mergedeep==1.3.4",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/mergedeep/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "mergedeep",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/mergedeep@1.3.4",
+      "type": "library",
+      "version": "1.3.4"
+    },
+    {
+      "bom-ref": "requirements-L43",
+      "description": "requirements line 43: mkdocs==1.6.1",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/mkdocs/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-2-Clause"
+        }
+      ],
+      "name": "mkdocs",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/mkdocs@1.6.1",
+      "type": "library",
+      "version": "1.6.1"
+    },
+    {
+      "bom-ref": "requirements-L44",
+      "description": "requirements line 44: mkdocs-autorefs==1.4.4",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/mkdocs-autorefs/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "ISC"
+        }
+      ],
+      "name": "mkdocs-autorefs",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/mkdocs-autorefs@1.4.4",
+      "type": "library",
+      "version": "1.4.4"
+    },
+    {
+      "bom-ref": "requirements-L45",
+      "description": "requirements line 45: mkdocs-get-deps==0.2.2",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/mkdocs-get-deps/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "mkdocs-get-deps",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/mkdocs-get-deps@0.2.2",
+      "type": "library",
+      "version": "0.2.2"
+    },
+    {
+      "bom-ref": "requirements-L46",
+      "description": "requirements line 46: mkdocs-material==9.7.7",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/mkdocs-material/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "mkdocs-material",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/mkdocs-material@9.7.7",
+      "type": "library",
+      "version": "9.7.7"
+    },
+    {
+      "bom-ref": "requirements-L47",
+      "description": "requirements line 47: mkdocs-material-extensions==1.3.1",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/mkdocs-material-extensions/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "mkdocs-material-extensions",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/mkdocs-material-extensions@1.3.1",
+      "type": "library",
+      "version": "1.3.1"
+    },
+    {
+      "bom-ref": "requirements-L48",
+      "description": "requirements line 48: mkdocstrings==0.30.1",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/mkdocstrings/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "ISC"
+        }
+      ],
+      "name": "mkdocstrings",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/mkdocstrings@0.30.1",
+      "type": "library",
+      "version": "0.30.1"
+    },
+    {
+      "bom-ref": "requirements-L49",
+      "description": "requirements line 49: mkdocstrings-python==2.0.8",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/mkdocstrings-python/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "ISC"
+        }
+      ],
+      "name": "mkdocstrings-python",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/mkdocstrings-python@2.0.8",
+      "type": "library",
+      "version": "2.0.8"
+    },
+    {
+      "bom-ref": "requirements-L50",
+      "description": "requirements line 50: more-itertools==11.1.0 ; platform_machine != 'ppc64le' and platform_machine != 's390x'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/more-itertools/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "more-itertools",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/more-itertools@11.1.0",
+      "type": "library",
+      "version": "11.1.0"
+    },
+    {
+      "bom-ref": "requirements-L51",
+      "description": "requirements line 51: mpmath==1.3.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/mpmath/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "mpmath",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/mpmath@1.3.0",
+      "type": "library",
+      "version": "1.3.0"
+    },
+    {
+      "bom-ref": "requirements-L52",
+      "description": "requirements line 52: mypy==1.20.2",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/mypy/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "mypy",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/mypy@1.20.2",
+      "type": "library",
+      "version": "1.20.2"
+    },
+    {
+      "bom-ref": "requirements-L53",
+      "description": "requirements line 53: mypy-extensions==1.1.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/mypy-extensions/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "mypy-extensions",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/mypy-extensions@1.1.0",
+      "type": "library",
+      "version": "1.1.0"
+    },
+    {
+      "bom-ref": "requirements-L54",
+      "description": "requirements line 54: networkx==3.6.1",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/networkx/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "networkx",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/networkx@3.6.1",
+      "type": "library",
+      "version": "3.6.1"
+    },
+    {
+      "bom-ref": "requirements-L55",
+      "description": "requirements line 55: nh3==0.3.7",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/nh3/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "nh3",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/nh3@0.3.7",
+      "type": "library",
+      "version": "0.3.7"
+    },
+    {
+      "bom-ref": "requirements-L56",
+      "description": "requirements line 56: numpy==2.4.6",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/numpy/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0"
+        }
+      ],
+      "name": "numpy",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/numpy@2.4.6",
+      "type": "library",
+      "version": "2.4.6"
+    },
+    {
+      "bom-ref": "requirements-L57",
+      "description": "requirements line 57: nvidia-cublas-cu12==12.6.4.1 ; sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/nvidia-cublas-cu12/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-NVIDIA-Proprietary"
+        }
+      ],
+      "name": "nvidia-cublas-cu12",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/nvidia-cublas-cu12@12.6.4.1",
+      "type": "library",
+      "version": "12.6.4.1"
+    },
+    {
+      "bom-ref": "requirements-L58",
+      "description": "requirements line 58: nvidia-cuda-cupti-cu12==12.6.80 ; sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/nvidia-cuda-cupti-cu12/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-NVIDIA-Proprietary"
+        }
+      ],
+      "name": "nvidia-cuda-cupti-cu12",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/nvidia-cuda-cupti-cu12@12.6.80",
+      "type": "library",
+      "version": "12.6.80"
+    },
+    {
+      "bom-ref": "requirements-L59",
+      "description": "requirements line 59: nvidia-cuda-nvrtc-cu12==12.6.85 ; sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/nvidia-cuda-nvrtc-cu12/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-NVIDIA-Proprietary"
+        }
+      ],
+      "name": "nvidia-cuda-nvrtc-cu12",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/nvidia-cuda-nvrtc-cu12@12.6.85",
+      "type": "library",
+      "version": "12.6.85"
+    },
+    {
+      "bom-ref": "requirements-L60",
+      "description": "requirements line 60: nvidia-cuda-runtime-cu12==12.6.77 ; sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/nvidia-cuda-runtime-cu12/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-NVIDIA-Proprietary"
+        }
+      ],
+      "name": "nvidia-cuda-runtime-cu12",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/nvidia-cuda-runtime-cu12@12.6.77",
+      "type": "library",
+      "version": "12.6.77"
+    },
+    {
+      "bom-ref": "requirements-L61",
+      "description": "requirements line 61: nvidia-cudnn-cu12==9.10.2.21 ; sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/nvidia-cudnn-cu12/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-NVIDIA-Proprietary"
+        }
+      ],
+      "name": "nvidia-cudnn-cu12",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/nvidia-cudnn-cu12@9.10.2.21",
+      "type": "library",
+      "version": "9.10.2.21"
+    },
+    {
+      "bom-ref": "requirements-L62",
+      "description": "requirements line 62: nvidia-cufft-cu12==11.3.0.4 ; sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/nvidia-cufft-cu12/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-NVIDIA-Proprietary"
+        }
+      ],
+      "name": "nvidia-cufft-cu12",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/nvidia-cufft-cu12@11.3.0.4",
+      "type": "library",
+      "version": "11.3.0.4"
+    },
+    {
+      "bom-ref": "requirements-L63",
+      "description": "requirements line 63: nvidia-cufile-cu12==1.11.1.6 ; sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/nvidia-cufile-cu12/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-NVIDIA-Proprietary"
+        }
+      ],
+      "name": "nvidia-cufile-cu12",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/nvidia-cufile-cu12@1.11.1.6",
+      "type": "library",
+      "version": "1.11.1.6"
+    },
+    {
+      "bom-ref": "requirements-L64",
+      "description": "requirements line 64: nvidia-curand-cu12==10.3.7.77 ; sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/nvidia-curand-cu12/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-NVIDIA-Proprietary"
+        }
+      ],
+      "name": "nvidia-curand-cu12",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/nvidia-curand-cu12@10.3.7.77",
+      "type": "library",
+      "version": "10.3.7.77"
+    },
+    {
+      "bom-ref": "requirements-L65",
+      "description": "requirements line 65: nvidia-cusolver-cu12==11.7.1.2 ; sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/nvidia-cusolver-cu12/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-NVIDIA-Proprietary"
+        }
+      ],
+      "name": "nvidia-cusolver-cu12",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/nvidia-cusolver-cu12@11.7.1.2",
+      "type": "library",
+      "version": "11.7.1.2"
+    },
+    {
+      "bom-ref": "requirements-L66",
+      "description": "requirements line 66: nvidia-cusparse-cu12==12.5.4.2 ; sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/nvidia-cusparse-cu12/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-NVIDIA-Proprietary"
+        }
+      ],
+      "name": "nvidia-cusparse-cu12",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/nvidia-cusparse-cu12@12.5.4.2",
+      "type": "library",
+      "version": "12.5.4.2"
+    },
+    {
+      "bom-ref": "requirements-L67",
+      "description": "requirements line 67: nvidia-cusparselt-cu12==0.7.1 ; sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/nvidia-cusparselt-cu12/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-NVIDIA-Proprietary"
+        }
+      ],
+      "name": "nvidia-cusparselt-cu12",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/nvidia-cusparselt-cu12@0.7.1",
+      "type": "library",
+      "version": "0.7.1"
+    },
+    {
+      "bom-ref": "requirements-L68",
+      "description": "requirements line 68: nvidia-nccl-cu12==2.29.3 ; sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/nvidia-nccl-cu12/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "nvidia-nccl-cu12",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/nvidia-nccl-cu12@2.29.3",
+      "type": "library",
+      "version": "2.29.3"
+    },
+    {
+      "bom-ref": "requirements-L69",
+      "description": "requirements line 69: nvidia-nvjitlink-cu12==12.6.85 ; sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/nvidia-nvjitlink-cu12/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-NVIDIA-Proprietary"
+        }
+      ],
+      "name": "nvidia-nvjitlink-cu12",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/nvidia-nvjitlink-cu12@12.6.85",
+      "type": "library",
+      "version": "12.6.85"
+    },
+    {
+      "bom-ref": "requirements-L70",
+      "description": "requirements line 70: nvidia-nvshmem-cu12==3.4.5 ; sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/nvidia-nvshmem-cu12/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0 AND BSD-3-Clause"
+        }
+      ],
+      "name": "nvidia-nvshmem-cu12",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/nvidia-nvshmem-cu12@3.4.5",
+      "type": "library",
+      "version": "3.4.5"
+    },
+    {
+      "bom-ref": "requirements-L71",
+      "description": "requirements line 71: nvidia-nvtx-cu12==12.6.77 ; sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/nvidia-nvtx-cu12/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "nvidia-nvtx-cu12",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/nvidia-nvtx-cu12@12.6.77",
+      "type": "library",
+      "version": "12.6.77"
+    },
+    {
+      "bom-ref": "requirements-L72",
+      "description": "requirements line 72: packaging==26.3",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/packaging/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR BSD-2-Clause"
+        }
+      ],
+      "name": "packaging",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/packaging@26.3",
+      "type": "library",
+      "version": "26.3"
+    },
+    {
+      "bom-ref": "requirements-L73",
+      "description": "requirements line 73: paginate==0.5.7",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/paginate/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "paginate",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/paginate@0.5.7",
+      "type": "library",
+      "version": "0.5.7"
+    },
+    {
+      "bom-ref": "requirements-L74",
+      "description": "requirements line 74: pathspec==1.1.1",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/pathspec/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MPL-2.0"
+        }
+      ],
+      "name": "pathspec",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/pathspec@1.1.1",
+      "type": "library",
+      "version": "1.1.1"
+    },
+    {
+      "bom-ref": "requirements-L75",
+      "description": "requirements line 75: pillow==12.3.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/pillow/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT-CMU"
+        }
+      ],
+      "name": "pillow",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/pillow@12.3.0",
+      "type": "library",
+      "version": "12.3.0"
+    },
+    {
+      "bom-ref": "requirements-L76",
+      "description": "requirements line 76: platformdirs==4.11.6",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/platformdirs/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "platformdirs",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/platformdirs@4.11.6",
+      "type": "library",
+      "version": "4.11.6"
+    },
+    {
+      "bom-ref": "requirements-L77",
+      "description": "requirements line 77: pluggy==1.6.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/pluggy/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "pluggy",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/pluggy@1.6.0",
+      "type": "library",
+      "version": "1.6.0"
+    },
+    {
+      "bom-ref": "requirements-L78",
+      "description": "requirements line 78: pycparser==3.0 ; implementation_name != 'PyPy' and platform_machine != 'ppc64le' and platform_machine != 's390x' and platform_python_implementation != 'PyPy' and sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/pycparser/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "pycparser",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/pycparser@3.0",
+      "type": "library",
+      "version": "3.0"
+    },
+    {
+      "bom-ref": "requirements-L79",
+      "description": "requirements line 79: pygments==2.21.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/pygments/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-2-Clause"
+        }
+      ],
+      "name": "pygments",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/pygments@2.21.0",
+      "type": "library",
+      "version": "2.21.0"
+    },
+    {
+      "bom-ref": "requirements-L80",
+      "description": "requirements line 80: pymdown-extensions==11.0.2",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/pymdown-extensions/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "pymdown-extensions",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/pymdown-extensions@11.0.2",
+      "type": "library",
+      "version": "11.0.2"
+    },
+    {
+      "bom-ref": "requirements-L81",
+      "description": "requirements line 81: pyparsing==3.3.2",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/pyparsing/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "pyparsing",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/pyparsing@3.3.2",
+      "type": "library",
+      "version": "3.3.2"
+    },
+    {
+      "bom-ref": "requirements-L82",
+      "description": "requirements line 82: pyproject-hooks==1.2.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/pyproject-hooks/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "pyproject-hooks",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/pyproject-hooks@1.2.0",
+      "type": "library",
+      "version": "1.2.0"
+    },
+    {
+      "bom-ref": "requirements-L83",
+      "description": "requirements line 83: pytest==9.1.1",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/pytest/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "pytest",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/pytest@9.1.1",
+      "type": "library",
+      "version": "9.1.1"
+    },
+    {
+      "bom-ref": "requirements-L84",
+      "description": "requirements line 84: python-dateutil==2.9.0.post0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/python-dateutil/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR BSD-3-Clause"
+        }
+      ],
+      "name": "python-dateutil",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "type": "library",
+      "version": "2.9.0.post0"
+    },
+    {
+      "bom-ref": "requirements-L85",
+      "description": "requirements line 85: pyyaml==6.0.3",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/pyyaml/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "pyyaml",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/pyyaml@6.0.3",
+      "type": "library",
+      "version": "6.0.3"
+    },
+    {
+      "bom-ref": "requirements-L86",
+      "description": "requirements line 86: pyyaml-env-tag==1.1",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/pyyaml-env-tag/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "pyyaml-env-tag",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/pyyaml-env-tag@1.1",
+      "type": "library",
+      "version": "1.1"
+    },
+    {
+      "bom-ref": "requirements-L87",
+      "description": "requirements line 87: readme-renderer==46.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/readme-renderer/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "readme-renderer",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/readme-renderer@46.0",
+      "type": "library",
+      "version": "46.0"
+    },
+    {
+      "bom-ref": "requirements-L88",
+      "description": "requirements line 88: requests==2.34.2",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/requests/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "requests",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/requests@2.34.2",
+      "type": "library",
+      "version": "2.34.2"
+    },
+    {
+      "bom-ref": "requirements-L89",
+      "description": "requirements line 89: requests-toolbelt==1.0.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/requests-toolbelt/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "requests-toolbelt",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/requests-toolbelt@1.0.0",
+      "type": "library",
+      "version": "1.0.0"
+    },
+    {
+      "bom-ref": "requirements-L90",
+      "description": "requirements line 90: rfc3986==2.0.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/rfc3986/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "rfc3986",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/rfc3986@2.0.0",
+      "type": "library",
+      "version": "2.0.0"
+    },
+    {
+      "bom-ref": "requirements-L91",
+      "description": "requirements line 91: rich==15.0.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/rich/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "rich",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/rich@15.0.0",
+      "type": "library",
+      "version": "15.0.0"
+    },
+    {
+      "bom-ref": "requirements-L92",
+      "description": "requirements line 92: ruff==0.16.5",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/ruff/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "ruff",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/ruff@0.16.5",
+      "type": "library",
+      "version": "0.16.5"
+    },
+    {
+      "bom-ref": "requirements-L93",
+      "description": "requirements line 93: secretstorage==3.5.0 ; platform_machine != 'ppc64le' and platform_machine != 's390x' and sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/secretstorage/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "secretstorage",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/secretstorage@3.5.0",
+      "type": "library",
+      "version": "3.5.0"
+    },
+    {
+      "bom-ref": "requirements-L94",
+      "description": "requirements line 94: setuptools==84.0.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/setuptools/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "setuptools",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/setuptools@84.0.0",
+      "type": "library",
+      "version": "84.0.0"
+    },
+    {
+      "bom-ref": "requirements-L95",
+      "description": "requirements line 95: six==1.17.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/six/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "six",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/six@1.17.0",
+      "type": "library",
+      "version": "1.17.0"
+    },
+    {
+      "bom-ref": "requirements-L96",
+      "description": "requirements line 96: sortedcontainers==2.4.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/sortedcontainers/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "sortedcontainers",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/sortedcontainers@2.4.0",
+      "type": "library",
+      "version": "2.4.0"
+    },
+    {
+      "bom-ref": "requirements-L97",
+      "description": "requirements line 97: sympy==1.14.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/sympy/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "sympy",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/sympy@1.14.0",
+      "type": "library",
+      "version": "1.14.0"
+    },
+    {
+      "bom-ref": "requirements-L98",
+      "description": "requirements line 98: tomli==2.4.1 ; python_full_version <= '3.11'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/tomli/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "tomli",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/tomli@2.4.1",
+      "type": "library",
+      "version": "2.4.1"
+    },
+    {
+      "bom-ref": "requirements-L99",
+      "description": "requirements line 99: torch==2.13.0+cu126",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/torch/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "torch",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/torch@2.13.0%2Bcu126",
+      "type": "library",
+      "version": "2.13.0+cu126"
+    },
+    {
+      "bom-ref": "requirements-L100",
+      "description": "requirements line 100: triton==3.7.1 ; python_full_version < '3.15' and sys_platform == 'linux'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/triton/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "triton",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/triton@3.7.1",
+      "type": "library",
+      "version": "3.7.1"
+    },
+    {
+      "bom-ref": "requirements-L101",
+      "description": "requirements line 101: twine==6.2.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/twine/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "twine",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/twine@6.2.0",
+      "type": "library",
+      "version": "6.2.0"
+    },
+    {
+      "bom-ref": "requirements-L102",
+      "description": "requirements line 102: typing-extensions==4.16.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/typing-extensions/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "PSF-2.0"
+        }
+      ],
+      "name": "typing-extensions",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/typing-extensions@4.16.0",
+      "type": "library",
+      "version": "4.16.0"
+    },
+    {
+      "bom-ref": "requirements-L103",
+      "description": "requirements line 103: urllib3==2.7.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/urllib3/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "urllib3",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/urllib3@2.7.0",
+      "type": "library",
+      "version": "2.7.0"
+    },
+    {
+      "bom-ref": "requirements-L104",
+      "description": "requirements line 104: watchdog==6.0.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/watchdog/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "watchdog",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/watchdog@6.0.0",
+      "type": "library",
+      "version": "6.0.0"
+    },
+    {
+      "bom-ref": "requirements-L105",
+      "description": "requirements line 105: wheel==0.48.0",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/wheel/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "wheel",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/wheel@0.48.0",
+      "type": "library",
+      "version": "0.48.0"
+    },
+    {
+      "bom-ref": "requirements-L106",
+      "description": "requirements line 106: zipp==4.1.0 ; python_full_version < '3.12' and platform_machine != 'ppc64le' and platform_machine != 's390x'",
+      "externalReferences": [
+        {
+          "comment": "implicit dist url",
+          "type": "distribution",
+          "url": "https://pypi.org/simple/zipp/"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "zipp",
+      "properties": [
+        {
+          "name": "structfield:release-profile",
+          "value": "cu126"
+        }
+      ],
+      "purl": "pkg:pypi/zipp@4.1.0",
+      "type": "library",
+      "version": "4.1.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "requirements-L10"
+    },
+    {
+      "ref": "requirements-L100"
+    },
+    {
+      "ref": "requirements-L101"
+    },
+    {
+      "ref": "requirements-L102"
+    },
+    {
+      "ref": "requirements-L103"
+    },
+    {
+      "ref": "requirements-L104"
+    },
+    {
+      "ref": "requirements-L105"
+    },
+    {
+      "ref": "requirements-L106"
+    },
+    {
+      "ref": "requirements-L11"
+    },
+    {
+      "ref": "requirements-L12"
+    },
+    {
+      "ref": "requirements-L13"
+    },
+    {
+      "ref": "requirements-L14"
+    },
+    {
+      "ref": "requirements-L15"
+    },
+    {
+      "ref": "requirements-L16"
+    },
+    {
+      "ref": "requirements-L17"
+    },
+    {
+      "ref": "requirements-L18"
+    },
+    {
+      "ref": "requirements-L19"
+    },
+    {
+      "ref": "requirements-L2"
+    },
+    {
+      "ref": "requirements-L20"
+    },
+    {
+      "ref": "requirements-L21"
+    },
+    {
+      "ref": "requirements-L22"
+    },
+    {
+      "ref": "requirements-L23"
+    },
+    {
+      "ref": "requirements-L24"
+    },
+    {
+      "ref": "requirements-L25"
+    },
+    {
+      "ref": "requirements-L26"
+    },
+    {
+      "ref": "requirements-L27"
+    },
+    {
+      "ref": "requirements-L28"
+    },
+    {
+      "ref": "requirements-L29"
+    },
+    {
+      "ref": "requirements-L3"
+    },
+    {
+      "ref": "requirements-L30"
+    },
+    {
+      "ref": "requirements-L31"
+    },
+    {
+      "ref": "requirements-L32"
+    },
+    {
+      "ref": "requirements-L33"
+    },
+    {
+      "ref": "requirements-L34"
+    },
+    {
+      "ref": "requirements-L35"
+    },
+    {
+      "ref": "requirements-L36"
+    },
+    {
+      "ref": "requirements-L37"
+    },
+    {
+      "ref": "requirements-L38"
+    },
+    {
+      "ref": "requirements-L39"
+    },
+    {
+      "ref": "requirements-L4"
+    },
+    {
+      "ref": "requirements-L40"
+    },
+    {
+      "ref": "requirements-L41"
+    },
+    {
+      "ref": "requirements-L42"
+    },
+    {
+      "ref": "requirements-L43"
+    },
+    {
+      "ref": "requirements-L44"
+    },
+    {
+      "ref": "requirements-L45"
+    },
+    {
+      "ref": "requirements-L46"
+    },
+    {
+      "ref": "requirements-L47"
+    },
+    {
+      "ref": "requirements-L48"
+    },
+    {
+      "ref": "requirements-L49"
+    },
+    {
+      "ref": "requirements-L5"
+    },
+    {
+      "ref": "requirements-L50"
+    },
+    {
+      "ref": "requirements-L51"
+    },
+    {
+      "ref": "requirements-L52"
+    },
+    {
+      "ref": "requirements-L53"
+    },
+    {
+      "ref": "requirements-L54"
+    },
+    {
+      "ref": "requirements-L55"
+    },
+    {
+      "ref": "requirements-L56"
+    },
+    {
+      "ref": "requirements-L57"
+    },
+    {
+      "ref": "requirements-L58"
+    },
+    {
+      "ref": "requirements-L59"
+    },
+    {
+      "ref": "requirements-L6"
+    },
+    {
+      "ref": "requirements-L60"
+    },
+    {
+      "ref": "requirements-L61"
+    },
+    {
+      "ref": "requirements-L62"
+    },
+    {
+      "ref": "requirements-L63"
+    },
+    {
+      "ref": "requirements-L64"
+    },
+    {
+      "ref": "requirements-L65"
+    },
+    {
+      "ref": "requirements-L66"
+    },
+    {
+      "ref": "requirements-L67"
+    },
+    {
+      "ref": "requirements-L68"
+    },
+    {
+      "ref": "requirements-L69"
+    },
+    {
+      "ref": "requirements-L7"
+    },
+    {
+      "ref": "requirements-L70"
+    },
+    {
+      "ref": "requirements-L71"
+    },
+    {
+      "ref": "requirements-L72"
+    },
+    {
+      "ref": "requirements-L73"
+    },
+    {
+      "ref": "requirements-L74"
+    },
+    {
+      "ref": "requirements-L75"
+    },
+    {
+      "ref": "requirements-L76"
+    },
+    {
+      "ref": "requirements-L77"
+    },
+    {
+      "ref": "requirements-L78"
+    },
+    {
+      "ref": "requirements-L79"
+    },
+    {
+      "ref": "requirements-L8"
+    },
+    {
+      "ref": "requirements-L80"
+    },
+    {
+      "ref": "requirements-L81"
+    },
+    {
+      "ref": "requirements-L82"
+    },
+    {
+      "ref": "requirements-L83"
+    },
+    {
+      "ref": "requirements-L84"
+    },
+    {
+      "ref": "requirements-L85"
+    },
+    {
+      "ref": "requirements-L86"
+    },
+    {
+      "ref": "requirements-L87"
+    },
+    {
+      "ref": "requirements-L88"
+    },
+    {
+      "ref": "requirements-L89"
+    },
+    {
+      "ref": "requirements-L9"
+    },
+    {
+      "ref": "requirements-L90"
+    },
+    {
+      "ref": "requirements-L91"
+    },
+    {
+      "ref": "requirements-L92"
+    },
+    {
+      "ref": "requirements-L93"
+    },
+    {
+      "ref": "requirements-L94"
+    },
+    {
+      "ref": "requirements-L95"
+    },
+    {
+      "ref": "requirements-L96"
+    },
+    {
+      "ref": "requirements-L97"
+    },
+    {
+      "ref": "requirements-L98"
+    },
+    {
+      "ref": "requirements-L99"
+    },
+    {
+      "dependsOn": [
+        "requirements-L10",
+        "requirements-L100",
+        "requirements-L101",
+        "requirements-L102",
+        "requirements-L103",
+        "requirements-L104",
+        "requirements-L105",
+        "requirements-L106",
+        "requirements-L11",
+        "requirements-L12",
+        "requirements-L13",
+        "requirements-L14",
+        "requirements-L15",
+        "requirements-L16",
+        "requirements-L17",
+        "requirements-L18",
+        "requirements-L19",
+        "requirements-L2",
+        "requirements-L20",
+        "requirements-L21",
+        "requirements-L22",
+        "requirements-L23",
+        "requirements-L24",
+        "requirements-L25",
+        "requirements-L26",
+        "requirements-L27",
+        "requirements-L28",
+        "requirements-L29",
+        "requirements-L3",
+        "requirements-L30",
+        "requirements-L31",
+        "requirements-L32",
+        "requirements-L33",
+        "requirements-L34",
+        "requirements-L35",
+        "requirements-L36",
+        "requirements-L37",
+        "requirements-L38",
+        "requirements-L39",
+        "requirements-L4",
+        "requirements-L40",
+        "requirements-L41",
+        "requirements-L42",
+        "requirements-L43",
+        "requirements-L44",
+        "requirements-L45",
+        "requirements-L46",
+        "requirements-L47",
+        "requirements-L48",
+        "requirements-L49",
+        "requirements-L5",
+        "requirements-L50",
+        "requirements-L51",
+        "requirements-L52",
+        "requirements-L53",
+        "requirements-L54",
+        "requirements-L55",
+        "requirements-L56",
+        "requirements-L57",
+        "requirements-L58",
+        "requirements-L59",
+        "requirements-L6",
+        "requirements-L60",
+        "requirements-L61",
+        "requirements-L62",
+        "requirements-L63",
+        "requirements-L64",
+        "requirements-L65",
+        "requirements-L66",
+        "requirements-L67",
+        "requirements-L68",
+        "requirements-L69",
+        "requirements-L7",
+        "requirements-L70",
+        "requirements-L71",
+        "requirements-L72",
+        "requirements-L73",
+        "requirements-L74",
+        "requirements-L75",
+        "requirements-L76",
+        "requirements-L77",
+        "requirements-L78",
+        "requirements-L79",
+        "requirements-L8",
+        "requirements-L80",
+        "requirements-L81",
+        "requirements-L82",
+        "requirements-L83",
+        "requirements-L84",
+        "requirements-L85",
+        "requirements-L86",
+        "requirements-L87",
+        "requirements-L88",
+        "requirements-L89",
+        "requirements-L9",
+        "requirements-L90",
+        "requirements-L91",
+        "requirements-L92",
+        "requirements-L93",
+        "requirements-L94",
+        "requirements-L95",
+        "requirements-L96",
+        "requirements-L97",
+        "requirements-L98",
+        "requirements-L99"
+      ],
+      "ref": "root-component"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "root-component",
+      "description": "Validated probabilistic structural fields for image analysis",
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "name": "structfield-vision",
+      "type": "library",
+      "version": "1.0.0"
+    },
+    "properties": [
+      {
+        "name": "cdx:reproducible",
+        "value": "true"
+      }
+    ],
+    "tools": {
+      "components": [
+        {
+          "description": "CycloneDX Software Bill of Materials (SBOM) generator for Python projects and environments",
+          "externalReferences": [
+            {
+              "type": "build-system",
+              "url": "https://github.com/CycloneDX/cyclonedx-python/actions"
+            },
+            {
+              "type": "distribution",
+              "url": "https://pypi.org/project/cyclonedx-bom/"
+            },
+            {
+              "type": "documentation",
+              "url": "https://cyclonedx-bom-tool.readthedocs.io/"
+            },
+            {
+              "type": "issue-tracker",
+              "url": "https://github.com/CycloneDX/cyclonedx-python/issues"
+            },
+            {
+              "type": "license",
+              "url": "https://github.com/CycloneDX/cyclonedx-python/blob/main/LICENSE"
+            },
+            {
+              "type": "release-notes",
+              "url": "https://github.com/CycloneDX/cyclonedx-python/blob/main/CHANGELOG.md"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/CycloneDX/cyclonedx-python/"
+            },
+            {
+              "type": "website",
+              "url": "https://github.com/CycloneDX/cyclonedx-python/#readme"
+            }
+          ],
+          "group": "CycloneDX",
+          "licenses": [
+            {
+              "license": {
+                "acknowledgement": "declared",
+                "id": "Apache-2.0"
+              }
+            }
+          ],
+          "name": "cyclonedx-py",
+          "type": "application",
+          "version": "7.3.1"
+        },
+        {
+          "description": "Python library for CycloneDX",
+          "externalReferences": [
+            {
+              "type": "build-system",
+              "url": "https://github.com/CycloneDX/cyclonedx-python-lib/actions"
+            },
+            {
+              "type": "distribution",
+              "url": "https://pypi.org/project/cyclonedx-python-lib/"
+            },
+            {
+              "type": "documentation",
+              "url": "https://cyclonedx-python-library.readthedocs.io/"
+            },
+            {
+              "type": "issue-tracker",
+              "url": "https://github.com/CycloneDX/cyclonedx-python-lib/issues"
+            },
+            {
+              "type": "license",
+              "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/LICENSE"
+            },
+            {
+              "type": "release-notes",
+              "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/CHANGELOG.md"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/CycloneDX/cyclonedx-python-lib"
+            },
+            {
+              "type": "website",
+              "url": "https://github.com/CycloneDX/cyclonedx-python-lib/#readme"
+            }
+          ],
+          "group": "CycloneDX",
+          "licenses": [
+            {
+              "license": {
+                "acknowledgement": "declared",
+                "id": "Apache-2.0"
+              }
+            }
+          ],
+          "name": "cyclonedx-python-lib",
+          "type": "library",
+          "version": "11.12.0"
+        }
+      ]
+    }
+  },
+  "specVersion": "1.6",
+  "version": 1
+}
