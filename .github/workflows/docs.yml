@@ -20,7 +20,7 @@ jobs:
       - run: uv pip sync pylock.cpu.toml --system --strict
       - run: uv pip install --system --no-deps -e .
       - run: mkdocs build --strict
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site
 
